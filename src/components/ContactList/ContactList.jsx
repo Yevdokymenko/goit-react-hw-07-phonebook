@@ -10,10 +10,6 @@ const ContactList = () => {
 
   //fixing errors on logic
 
-  const deteteContacts = id => {
-    dispatch(deleteContacts(id));
-  };
-
   useEffect(() => {
     dispatch(getContacts());
   }, [dispatch]);
