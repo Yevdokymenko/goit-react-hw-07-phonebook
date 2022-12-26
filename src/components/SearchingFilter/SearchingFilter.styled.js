@@ -19,6 +19,6 @@ export const FilterInput = styled.input`
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   :hover,
   :focus {
-    border-color: ${p => p.theme.colors.blue};
+    border-color: ${p => p.theme.colors.orange};
   }
 `;

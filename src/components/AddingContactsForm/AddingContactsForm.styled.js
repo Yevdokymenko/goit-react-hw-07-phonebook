@@ -34,7 +34,7 @@ export const ContactsInput = styled(Field)`
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   :hover,
   :focus {
-    border-color: ${p => p.theme.colors.green};
+    border-color: ${p => p.theme.colors.orange};
   }
 `;
 
@@ -64,7 +64,7 @@ export const SubmitButton = styled.button`
   cursor: pointer;
   :hover,
   :focus {
-    background-color: ${p => p.theme.colors.green};
+    background-color: ${p => p.theme.colors.orange};
     color: ${p => p.theme.colors.white};
   }
 `;
